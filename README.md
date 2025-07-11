@@ -21,7 +21,7 @@ When a user inputs a natural language math problem, the model:
  ├── final_dataset_no_comments.json # Training/inference dataset
  └── README.md # Project documentation </pre>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🚀 Run It Yourself
+**🚀 Run It Yourself**
 
 **1. Clone the Repo**
 <pre> 
@@ -59,8 +59,9 @@ Final Answer:
 <pre>
    [9.5255, 1.5143]
 </pre>
-
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 **🧠 Model Info**
+
 Base LLM: Qwen 3 1.7B
 
 Tuning: LoRA adapters on a curated problem-code dataset
