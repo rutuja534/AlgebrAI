@@ -1,4 +1,5 @@
 **AlgrbAI:  Code-Generating Linear Algebra Solver using Qwen 3 + LoRA**
+
 **AlgrbAI** is a smart, code-generating assistant for solving linear algebra problems.  
 It uses a fine-tuned **Qwen 3 1.7B** model trained with **LoRA adapters** on a custom dataset of Linear algrbra problems and Python-based solutions.
 When a user inputs a natural language math problem, the model:
