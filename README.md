@@ -22,8 +22,22 @@ When a user inputs a natural language math problem, the model:
 └── README.md # Project documentation </pre>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Run It Yourself
+**1. Clone the Repo**
 <pre> 
-  
    git clone https://github.com/Umme-2003/AlgrbAI.git 
    cd AlgrbAI 
-   </pre>
+</pre>
+
+**2.Install dependencies**
+<pre>
+   pip install numpy torch transformers peft accelerate
+</pre>
+⚠️ GPU recommended for faster model inference
+
+**3. Launch the notebook**
+<pre>
+   jupyter notebook
+</pre>
+
+
+
