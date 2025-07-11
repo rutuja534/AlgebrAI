@@ -22,6 +22,7 @@ When a user inputs a natural language math problem, the model:
 └── README.md # Project documentation </pre>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Run It Yourself
+
 **1. Clone the Repo**
 <pre> 
    git clone https://github.com/Umme-2003/AlgrbAI.git 
@@ -38,6 +39,34 @@ When a user inputs a natural language math problem, the model:
 <pre>
    jupyter notebook
 </pre>
+
+Open linear_algebra.ipynb and run the cells step-by-step.
+You can enter your own linear algebra problem and watch the model solve it with generated Python code.
+
+**✨ Sample Usage**
+Input Prompt: 
+<pre>
+   Let A = [[1, 2], [3, 4], [5, 6]]. Perform Singular Value Decomposition (SVD) on matrix A and return its singular values.
+</pre>
+Model Output:
+<pre>
+   import numpy as np
+A = np.array([[1, 2], [3, 4], [5, 6]])
+U, S, Vt = np.linalg.svd(A)
+print(S)
+</pre>
+Final Answer:
+<pre>
+   [9.5255, 1.5143]
+</pre>
+
+**🧠 Model Info**
+Base LLM: Qwen 3 1.7B
+Tuning: LoRA adapters on a curated problem-code dataset
+Inference Tools: Hugging Face Transformers + PEFT
+Execution Env: Jupyter / Lightning AI
+
+
 
 
 
