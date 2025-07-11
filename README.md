@@ -23,7 +23,7 @@ When a user inputs a natural language math problem, the model:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Run It Yourself
 <pre> 
-   ```bash 
+  
    git clone https://github.com/Umme-2003/AlgrbAI.git 
    cd AlgrbAI 
-   ``` </pre>
+   </pre>
