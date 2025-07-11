@@ -18,8 +18,8 @@ When a user inputs a natural language math problem, the model:
 
   ## 📂 Project Files
 <pre> ├── linear_algebra.ipynb # Main notebook (run your queries here) 
-      ├── final_dataset_no_comments.json # Training/inference dataset
-      └── README.md # Project documentation </pre>
+   ├── final_dataset_no_comments.json # Training/inference dataset
+   └── README.md # Project documentation </pre>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Run It Yourself
 <pre>```bash git clone https://github.com/Umme-2003/AlgrbAI.git cd AlgrbAI```</pre>
