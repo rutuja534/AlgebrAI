@@ -1,4 +1,4 @@
-**AlgrbAI:  Code-Generating Linear Algebra Solver using Qwen 3 + LoRA**
+**AlgrbAI:  Code-Generating Linear Algebra Solver**
 
 **AlgrbAI** is a smart, code-generating assistant for solving linear algebra problems.  
 It uses a fine-tuned **Qwen 3 1.7B** model trained with **LoRA adapters** on a custom dataset of Linear algrbra problems and Python-based solutions.
@@ -18,8 +18,8 @@ When a user inputs a natural language math problem, the model:
 
   ## 📂 Project Files
 <pre> ├── linear_algebra.ipynb # Main notebook (run your queries here) 
-├── final_dataset_no_comments.json # Training/inference dataset
-└── README.md # Project documentation </pre>
+ ├── final_dataset_no_comments.json # Training/inference dataset
+ └── README.md # Project documentation </pre>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Run It Yourself
 
@@ -50,7 +50,7 @@ Input Prompt:
 </pre>
 Model Output:
 <pre>
-   import numpy as np
+import numpy as np
 A = np.array([[1, 2], [3, 4], [5, 6]])
 U, S, Vt = np.linalg.svd(A)
 print(S)
@@ -62,8 +62,11 @@ Final Answer:
 
 **🧠 Model Info**
 Base LLM: Qwen 3 1.7B
+
 Tuning: LoRA adapters on a curated problem-code dataset
+
 Inference Tools: Hugging Face Transformers + PEFT
+
 Execution Env: Jupyter / Lightning AI
 
 
