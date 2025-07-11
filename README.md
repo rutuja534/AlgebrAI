@@ -7,6 +7,7 @@ When a user inputs a natural language math problem, the model:
 2. Generates valid Python code to solve it (e.g., SVD, eigenvalues),
 3. Executes the code, and
 4. Returns the final result.
+   
 ## 🧠 What Makes This Different
 
 - 🧾 **Trained on real linear algebra problems**  
@@ -16,7 +17,10 @@ When a user inputs a natural language math problem, the model:
   The model doesn’t just explain — it writes working Python code and runs it.
 
   ## 📂 Project Files
-  
 ├── linear_algebra.ipynb             # Main notebook (run your queries here)
 ├── final_dataset_no_comments.json   # Training/inference dataset
 └── README.md                        # Project documentation
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🚀 Run It Yourself
+<pre> ```bash git clone https://github.com/Umme-2003/AlgrbAI.git cd AlgrbAI ``` </pre>
+
