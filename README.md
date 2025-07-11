@@ -17,7 +17,9 @@ When a user inputs a natural language math problem, the model:
   The model doesn’t just explain — it writes working Python code and runs it.
 
   ## 📂 Project Files
-<pre> ```bash ├── linear_algebra.ipynb # Main notebook (run your queries here) ├── final_dataset_no_comments.json # Training/inference dataset └── README.md # Project documentation ``` </pre>
+<pre> ```bash ├── linear_algebra.ipynb # Main notebook (run your queries here) 
+              ├── final_dataset_no_comments.json # Training/inference dataset
+              └── README.md # Project documentation ``` </pre>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Run It Yourself
 <pre>```bash git clone https://github.com/Umme-2003/AlgrbAI.git cd AlgrbAI```</pre>
