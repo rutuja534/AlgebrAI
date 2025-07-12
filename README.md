@@ -37,8 +37,8 @@ When a user inputs a natural language math problem (like "Find eigenvalues of th
 
 **1. Clone the Repo**
 <pre> 
-   git clone https://github.com/Umme-2003/AlgrbAI.git 
-   cd AlgrbAI 
+   git clone https://github.com/rutuja534/AlgebrAI.git
+   cd AlgrbrAI 
 </pre>
 
 **2.Install dependencies**
@@ -55,7 +55,8 @@ When a user inputs a natural language math problem (like "Find eigenvalues of th
 Open linear_algebra.ipynb and run the cells step-by-step.
 You can enter your own linear algebra problem and watch the model solve it with generated Python code.
 
-**✨ Sample Usage**
+**Sample Usage**
+
 Input Prompt: 
 <pre>
    Let A = [[1, 2], [3, 4], [5, 6]]. Perform Singular Value Decomposition (SVD) on matrix A and return its singular values.
@@ -72,7 +73,7 @@ Final Answer:
    [9.5255, 1.5143]
 </pre>
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
-**🧠 Model Info**
+**Model Info**
 
 Base LLM: Qwen 3 1.7B
 
@@ -82,7 +83,11 @@ Inference Tools: Hugging Face Transformers + PEFT
 
 Execution Env: Jupyter / Lightning AI
 
+## Use Cases
 
+- 🧑‍🎓 Students verifying linear algebra homework
+- 👩‍💻 Developers testing numerical algorithms
+- 🤖 Researchers benchmarking LLMs for mathematical reasoning
 
 
 
