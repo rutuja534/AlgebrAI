@@ -3,7 +3,7 @@ AlgebrAI is an AI-powered calculator built to solve linear algebra problems with
 
 Unlike general-purpose language models that often produce incorrect or inconsistent math outputs, AlgebrAI generates and executes reliable Python code to directly compute the accurate final answer.
 
-It is powered by a fine-tuned Qwen 3 1.7B model enhanced with LoRA adapters, and trained on a custom dataset of linear algebra problems paired with executable Python solutions.
+It is powered by a fine-tuned Qwen 3 1.7B model enhanced with QLoRA adapters, and trained on a custom dataset of linear algebra problems paired with executable Python solutions.
 
 When a user inputs a natural language math problem (like "Find eigenvalues of this matrix"), AlgebrAI:
 
