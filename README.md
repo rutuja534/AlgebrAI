@@ -1,12 +1,18 @@
-**AlgrbAI:  Code-Generating Linear Algebra Solver**
+## AlgebrAI: A Code-Generating Linear Algebra Calculator
+AlgebrAI is an AI-powered calculator designed to solve linear algebra problems with high precision.
+Built to overcome the limitations of general-purpose language models in mathematical reasoning, AlgebrAI generates and executes accurate Python code to ensure reliable results.
 
-**AlgrbAI** is a smart, code-generating assistant for solving linear algebra problems.  
-It uses a fine-tuned **Qwen 3 1.7B** model trained with **LoRA adapters** on a custom dataset of Linear algrbra problems and Python-based solutions.
-When a user inputs a natural language math problem, the model:
-1. Understands the query,
-2. Generates valid Python code to solve it (e.g., SVD, eigenvalues),
-3. Executes the code, and
-4. Returns the final result.
+The system is powered by a fine-tuned Qwen 3 1.7B model enhanced with LoRA adapters, and trained on a custom dataset of linear algebra problems paired with executable Python solutions.
+
+When a user inputs a natural language math problem (like "Find eigenvalues of this matrix"), AlgebrAI:
+
+- Understands your query,
+
+- Generates valid Python code,
+
+- Executes the code securely,
+
+- Returns the final answer with no manual math required.
    
 ## 🧠 What Makes This Different
 
