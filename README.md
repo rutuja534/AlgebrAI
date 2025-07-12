@@ -15,13 +15,18 @@ When a user inputs a natural language math problem (like "Find eigenvalues of th
 
 - Returns the final answer with no manual math required.
    
-## 🧠 What Makes This Different
+## What Makes This Different
 
-- 🧾 **Trained on real linear algebra problems**  
-  The dataset pairs linear algebra problems with working Python code solutions (NumPy/SciPy).
+- Purpose-built for linear algebra
+  
+  Unlike generic LLMs that fumble math, AlgebrAI is fine-tuned specifically to handle linear algebra queries with precision and consistency.
+- Direct code execution
+  
+  It converts math queries into executable Python code, and returns only the final answer with no fake steps or guesswork.
+- Custom Training Data
+  
+  Trained on a hand-crafted dataset of 6000+ real linear algebra problems.
 
-- 🤖 **LLM-generated code execution**  
-  The model doesn’t just explain — it writes working Python code and runs it.
 
   ## 📂 Project Files
 <pre> ├── linear_algebra.ipynb # Main notebook (run your queries here) 
